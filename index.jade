@@ -1,0 +1,188 @@
+doctype html
+html(lang='en')
+	head
+		meta(charset='utf-8')
+		link(rel="stylesheet", href="css/style.css")
+		title Computer Store
+		meta(http-equiv="Content-Type" content="text/html; charset=windows-1250")
+body
+	header
+		section.top-part
+			img.logo(src="images/main.jpg", alt="logo")
+			nav
+				ul
+					li.top-part_items
+						a Shopping Cart: <span>0 items
+					li.top-part_line
+					li.top-part_lenguage
+						a Choose your language:
+							ul.submenu
+								li
+									a(href="#"
+										onmouseover="window.status='english';  return true;"
+										onmouseout="window.status='';  return true;")
+										img(src="images/english.jpg", alt="english")
+									a(href="#"
+										onmouseover="window.status='german';  return true;"
+										onmouseout="window.status='';  return true;")
+										img(src="images/german.jpg", alt="english")
+									a(href="#"
+										onmouseover="window.status='spanish';  return true;"
+										onmouseout="window.status='';  return true;")
+										img(src="images/spanish.jpg", alt="english")
+					li.top-part_line
+					li.top-part_cash
+						a Currencies
+						select(name="select")
+							option US Dollar
+							option Euro
+		section.underside
+			nav.underside-menu
+				ul
+					li
+						a.underside-menu-a(href="index.html") Home Page
+					li
+						a.underside-menu-a(href="new.html") New Products
+					li
+						a.underside-menu-a(href="specials.html") Specials
+					li
+						a.underside-menu-a(href="account.html") My Account
+					li
+						a.underside-menu-a(href="contact.html") Contact us
+			figure.underside-texture
+				img(src="images/camera.png", alt="texture")
+	main
+		aside.container-menu
+			img(src="images/browse.jpg" width="212" height="27" alt="")
+			nav
+				ul
+					li
+						a.aside-menu(href="#") Barebones
+					li
+						a.aside-menu(href="#") CD / DVD Drives &amp; Media
+					li
+						a.aside-menu(href="#") Digital
+					li
+						a.aside-menu(href="#") Home Electronics
+					li
+						a.aside-menu(href="#") Input Devices
+					li
+						a.aside-menu(href="#") Memory &amp; Flash Memory
+					li
+						a.aside-menu(href="#") Monitors &amp; Projectors
+					li
+						a.aside-menu(href="#") MotherBoard
+					li
+						a.aside-menu(href="#") PDAs / Handheld PCs
+					li
+						a.aside-menu(href="#") TV
+					li
+						a.aside-menu(href="#") PC Desktops
+					li
+						a.aside-menu(href="#") Mac Desktops
+					li
+						a.aside-menu(href="#") Monitors
+					li
+						a.aside-menu(href="#") PC Laptops
+					li
+						a.aside-menu(href="#") Mac Laptops
+					li
+						a.aside-menu(href="#") Tablet PCs
+					li
+						a.aside-menu(href="#") Mice and Trackballs
+					li
+						a.aside-menu(href="#") PDAs
+					li
+						a.aside-menu(href="#") Printers
+					li
+						a.aside-menu(href="#") Scanners
+			img(src="images/details-68.jpg" width="212" height="46" alt="")
+		article.container-gallery
+			h5 featured products
+			section.gallery
+				img.gallery-images(src="images/comp.jpg", alt="products")
+				figure.gallery-info
+					p.gallery-info-model BENQ - FP231W LCD Monitor
+					p.gallery-info-prise $997
+				img.gallery-lines(src="images/lines-x.jpg", alt="lines")
+				nav.gallery-button
+					ul
+						li
+							a(href="#")
+								img(src="images/details.jpg", alt="details")
+						li
+							a(href="#")
+								img(src="images/add-to-cart.jpg", alt="add-to-cart")
+			section.gallery
+				img.gallery-images(src="images/ntbook.jpg", alt="products")
+				figure.gallery-info
+					p.gallery-info-model APPLE - 1.5 Ghz PowerBook
+					p.gallery-info-prise $ 1799
+				img.gallery-lines(src="images/lines-x.jpg", alt="lines")
+				nav.gallery-button
+					ul
+						li
+							a(href="#")
+								img(src="images/details.jpg", alt="details")
+						li
+							a(href="#")
+								img(src="images/add-to-cart.jpg", alt="add-to-cart")
+			section.gallery
+				img.gallery-images(src="images/printer.jpg", alt="products")
+				figure.gallery-info
+					p.gallery-info-model CANON - IP4200 Pixma
+					p.gallery-info-prise $ 109
+				img.gallery-lines(src="images/lines-x.jpg", alt="lines")
+				nav.gallery-button
+					ul
+						li
+							a(href="#")
+								img(src="images/details.jpg", alt="details")
+						li
+							a(href="#")
+								img(src="images/add-to-cart.jpg", alt="add-to-cart")
+			section.gallery
+				img.gallery-images(src="images/NEC.jpg", alt="products")
+				figure.gallery-info
+					p.gallery-info-model NEC - VT670K Video Projector
+					p.gallery-info-prise $ 1599
+				img.gallery-lines(src="images/lines-x.jpg", alt="lines")
+				nav.gallery-button
+					ul
+						li
+							a(href="#")
+								img(src="images/details.jpg", alt="details")
+						li
+							a(href="#")
+								img(src="images/add-to-cart.jpg", alt="add-to-cart")
+			section.gallery
+				a(href="#")
+					img.gallery-images-special-offer(src="images/details-66.jpg", alt="products")
+			section.gallery
+				a(href="#")
+					img.gallery-images-special-offer(src="images/details-67.jpg", alt="products")
+	footer
+		aside.payment-systems
+			img(src="images/cards.jpg", alt="PayPal,VISA,MasterCard")
+		article.contacts
+			nav
+				ul
+					li
+						a.contacts-menu(href="specials.html") SPECIALS
+					li
+						a.contacts-menu |
+					li
+						a.contacts-menu(href="search.html") SITE SEARCH
+					li
+						a.contacts-menu |
+					li
+						a.contacts-menu(href="contact.html") CONTACT US
+					li
+						a.contacts-menu |
+					li
+						a.contacts-menu(href="create.html") CREATE AN ACCOUNT
+					li
+						a.contacts-menu |
+					li
+						a.contacts-menu(href="login.html") CUSTOMER LOGIN
+			h6.copyright Copyright &copy; Your Company Name

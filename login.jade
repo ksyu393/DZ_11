@@ -1,0 +1,81 @@
+doctype html
+html(lang='en')
+	head
+		meta(charset='utf-8')
+		link(rel="stylesheet", href="css/style.css")
+		title Computer Store
+		meta(http-equiv="Content-Type" content="text/html; charset=windows-1250")
+body
+	header
+		section.top-part
+			img.logo(src="images/main.jpg", alt="logo")
+			nav
+				ul
+					li.top-part_items
+						a Shopping Cart: <span>0 items
+					li.top-part_line
+					li.top-part_lenguage
+						a Choose your language:
+							ul.submenu
+								li
+									a(href="#"
+										onmouseover="window.status='english';  return true;"
+										onmouseout="window.status='';  return true;")
+										img(src="images/english.jpg", alt="english")
+									a(href="#"
+										onmouseover="window.status='german';  return true;"
+										onmouseout="window.status='';  return true;")
+										img(src="images/german.jpg", alt="english")
+									a(href="#"
+										onmouseover="window.status='spanish';  return true;"
+										onmouseout="window.status='';  return true;")
+										img(src="images/spanish.jpg", alt="english")
+					li.top-part_line
+					li.top-part_cash
+						a Currencies
+						select(name="select")
+							option US Dollar
+							option Euro
+		section.underside
+			nav.underside-menu
+				ul
+					li
+						a.underside-menu-a(href="index.html") Home Page
+					li
+						a.underside-menu-a(href="new.html") New Products
+					li
+						a.underside-menu-a(href="specials.html") Specials
+					li
+						a.underside-menu-a(href="account.html") My Account
+					li
+						a.underside-menu-a(href="contact.html") Contact us
+			figure.underside-texture
+				img(src="images/camera.png", alt="texture")
+	main
+		section.conteiner-menu-header
+			h6.conteiner-menu-header-tex Customer Login
+	footer
+		aside.payment-systems
+			img(src="images/cards.jpg", alt="PayPal,VISA,MasterCard")
+		article.contacts
+			nav
+				ul
+					li
+						a.contacts-menu(href="specials.html") SPECIALS
+					li
+						a.contacts-menu |
+					li
+						a.contacts-menu(href="search.html") SITE SEARCH
+					li
+						a.contacts-menu |
+					li
+						a.contacts-menu(href="contact.html") CONTACT US
+					li
+						a.contacts-menu |
+					li
+						a.contacts-menu(href="create.html") CREATE AN ACCOUNT
+					li
+						a.contacts-menu |
+					li
+						a.contacts-menu(href="login.html") CUSTOMER LOGIN
+			h6.copyright Copyright &copy; Your Company Name
